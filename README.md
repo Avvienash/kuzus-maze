@@ -1,18 +1,17 @@
 # Kuzu's Maze website
 
-Static site for the store listings: landing page, privacy policy, support and credits.
+Static site for the store listings: landing page, privacy policy and credits.
 Plain HTML and one stylesheet. No build step, no JavaScript, no cookies. Hosted on GitHub Pages.
 
 | File | Purpose |
 |---|---|
 | `index.html` | Landing page with store links |
 | `privacy.html` | Privacy policy (Play Console, App Store Connect and in-game Settings link here) |
-| `support.html` | Contact and FAQ (App Store "Support URL") |
 | `credits.html` | Credits and licence texts. Mirrors `../Godot/assets/licenses/` |
 | `app-ads.txt` | AdMob seller verification. Only read at the root of a domain |
 | `404.html` | GitHub Pages not-found page |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
-| `assets/` | Icon sizes (from `Godot/assets/branding/app_icon_1024.png`) and the game's Latin font slices |
+| `assets/` | Crest tile logo and icons (rendered by `Blender/scripts/render_web_logo.py`) and the game's Latin font slices |
 
 ## Preview locally
 
@@ -42,7 +41,7 @@ store listings and `privacy_policy_url` in `Godot/data/app_info.tres`.
 - [ ] Original designer name(s) and the credits wording agreed with Stellar Factory: `credits.html`.
 - [ ] Store links: replace the "Coming soon" spans in `index.html` (instructions in the HTML comment there).
 - [ ] AdMob publisher line: `app-ads.txt`.
-- [ ] Contact email: currently the developer's personal address in `privacy.html` and `support.html`.
+- [ ] Contact email: currently the developer's personal address in `privacy.html`.
 
 ## Keep in sync
 
