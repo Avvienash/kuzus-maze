@@ -21,7 +21,12 @@
   </header>
 
   <main class="wrap hero">
-    <img class="logo" src="assets/logo_tile.png" alt="A wooden tile engraved with the Kuzu's Maze crest">
+    <button class="tile" type="button" aria-label="Kuzu's Maze tile. Tap to flip it.">
+      <span class="tile-inner">
+        <img class="tile-back" src="assets/logo_tile.webp" alt="" width="168" height="168" draggable="false">
+        <img class="tile-face" alt="" width="168" height="168" draggable="false">
+      </span>
+    </button>
     <h1>Kuzu's Maze</h1>
     <p class="tagline">A free-to-play memory puzzle game. Step across face-down wooden tiles, collect five flowers in order, and remember where the vine monsters hide.</p>
 
@@ -32,5 +37,6 @@
       <span class="store soon"><small>Coming soon to the</small><span>App Store</span></span>
     </div>
   </main>
+  <script src="flip.js" defer></script>
 </body>
 </html>

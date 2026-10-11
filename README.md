@@ -1,7 +1,7 @@
 # Kuzu's Maze website
 
 Static site for the store listings: landing page, privacy policy and credits.
-Plain HTML and one stylesheet. No build step, no JavaScript, no cookies. Hosted on GitHub Pages.
+Plain HTML, one stylesheet and one small script. No build step, no cookies. Hosted on GitHub Pages.
 
 | File | Purpose |
 |---|---|
@@ -9,9 +9,10 @@ Plain HTML and one stylesheet. No build step, no JavaScript, no cookies. Hosted 
 | `privacy.html` | Privacy policy (Play Console, App Store Connect and in-game Settings link here) |
 | `credits.html` | Credits and licence texts. Mirrors `../Godot/assets/licenses/` |
 | `app-ads.txt` | AdMob seller verification. Only read at the root of a domain |
+| `flip.js` | Tap-to-flip logo tile with a random face each time |
 | `404.html` | GitHub Pages not-found page |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
-| `assets/` | Crest tile logo and icons (rendered by `Blender/scripts/render_web_logo.py`) and the game's Latin font slices |
+| `assets/` | Tile back and faces (`render_all()` in `Blender/scripts/render_web_logo.py`), favicons, and the game's Latin font slices |
 
 ## Preview locally
 
